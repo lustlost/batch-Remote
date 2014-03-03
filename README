@@ -1,0 +1,14 @@
+批量命令
+fab info:host_file,cmd_file go
+
+批量修改密码：
+fab info:host_file passwd
+
+批量上传文件：
+fab info:host_file upload:local_file,remote_file
+
+批量下载文件
+fab info:host_file download:remote_file,local_file
+
+主机列表格式 host_file
+IP PORT PASSWORD
