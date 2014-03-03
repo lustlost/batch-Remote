@@ -1,3 +1,11 @@
+step1:
+pip install fabric
+
+or
+
+easy_install fabric
+
+
 批量命令
 fab info:host_file,cmd_file go
 
